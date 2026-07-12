@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="xposed_scope">
+        <item>com.android.chrome</item>
+        <item>org.cromite.cromite</item>
+        <item>com.microsoft.emmx</item>
+        <item>com.brave.browser</item>
+        <item>com.opera.browser</item>
+        <item>com.vivaldi.browser</item>
+        <item>com.kiwi.browser</item>
+        <item>com.stargon.browser</item>
+        <item>com.hermit.browser</item>
+        <item>com.miui.browser</item>
+        <item>com.samsung.android.browser</item>
+        <item>com.yandex.browser</item>
+        <item>com.duckduckgo.mobile.android</item>
+    </string-array>
+</resources>

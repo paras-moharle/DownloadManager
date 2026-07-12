@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Download Manager</string>
+    <string name="status_active_mode">Active mode: %1$s</string>
+    <string name="mode_external_title">Smart External</string>
+    <string name="mode_external_desc">Downloads handled by your preferred download manager automatically.</string>
+    <string name="mode_browser_title">Browser Internal</string>
+    <string name="mode_browser_desc">Browser handles all downloads normally. No interception.</string>
+    <string name="tab_home">Home</string>
+    <string name="tab_history">History</string>
+    <string name="badge_active">ACTIVE</string>
+    <string name="toast_external_active">Smart External mode active</string>
+    <string name="toast_browser_active">Browser mode active</string>
+    <string name="history_clear">Clear History</string>
+    <string name="history_empty">No history yet.</string>
+    <string name="toast_history_cleared">History cleared</string>
+    <string name="dialog_close">Close</string>
+    <string name="history_item_unknown">Unknown</string>
+    <string name="history_item_title">History Item</string>
+
+    <!-- Updated: now includes DM Used as %4$s, URL as %5$s, Referer as %6$s -->
+    <string name="history_details_format">&lt;b&gt;Time:&lt;/b&gt; %1$s&lt;br&gt;&lt;br&gt;&lt;b&gt;Filename:&lt;/b&gt; %2$s&lt;br&gt;&lt;br&gt;&lt;b&gt;Type:&lt;/b&gt; %3$s&lt;br&gt;&lt;br&gt;&lt;b&gt;DM Used:&lt;/b&gt; %4$s&lt;br&gt;&lt;br&gt;&lt;b&gt;URL:&lt;/b&gt; %5$s&lt;br&gt;&lt;br&gt;&lt;b&gt;Referer:&lt;/b&gt; %6$s&lt;br&gt;&lt;br&gt;&lt;i&gt;Long press to copy URL&lt;/i&gt;</string>
+
+    <!-- DM Picker — new strings -->
+    <string name="section_dm">Download Manager</string>
+    <string name="select_dm_desc">Select which download manager receives intercepted downloads.</string>
+    <string name="dm_auto_sub">Tries all installed DMs in priority order</string>
+    <string name="dm_not_installed">Not installed</string>
+    <string name="toast_dm_selected">Using: %1$s</string>
+</resources>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Outer Glow -->
+    <path
+        android:pathData="M54,28 L80,54 L54,80 L28,54 Z"
+        android:fillAlpha="0.2">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:type="radial"
+                android:centerX="54"
+                android:centerY="54"
+                android:gradientRadius="40">
+                <item android:color="#3B82F6" android:offset="0" />
+                <item android:color="#003B82F6" android:offset="1" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Main Prism Body -->
+    <path
+        android:pathData="M54,34 L74,54 L54,74 L34,54 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="34"
+                android:startY="34"
+                android:endX="74"
+                android:endY="74"
+                android:type="linear">
+                <item android:color="#3B82F6" android:offset="0" />
+                <item android:color="#58A6FF" android:offset="1" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Inner Facet Light -->
+    <path
+        android:pathData="M54,34 L74,54 L54,54 Z"
+        android:fillColor="#FFFFFF"
+        android:fillAlpha="0.25" />
+
+    <!-- Inner Facet Dark -->
+    <path
+        android:pathData="M34,54 L54,74 L54,54 Z"
+        android:fillColor="#000000"
+        android:fillAlpha="0.15" />
+
+    <!-- Core pulse point -->
+    <path
+        android:pathData="M52,52h4v4h-4z"
+        android:fillColor="#FFFFFF"
+        android:fillAlpha="0.9" />
+
+</vector>

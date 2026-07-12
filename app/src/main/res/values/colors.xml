@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Original colors — untouched -->
+    <color name="primary">#3B82F6</color>
+    <color name="background">#0D1117</color>
+    <color name="surface">#161B22</color>
+    <color name="text_primary">#FFFFFF</color>
+    <color name="text_secondary">#8B949E</color>
+    <color name="accent">#58A6FF</color>
+    <color name="error">#F85149</color>
+    <color name="success">#3FB950</color>
+    <color name="border">#30363D</color>
+
+    <!-- DM brand colors — new -->
+    <color name="dm_auto">#8B949E</color>
+    <color name="dm_idm_plus">#3FB950</color>
+    <color name="dm_idm">#58A6FF</color>
+    <color name="dm_adm_pro">#BC8CFF</color>
+    <color name="dm_adm">#D29922</color>
+    <color name="dm_fdm">#F85149</color>
+    <color name="dm_one_dm">#F0883E</color>
+
+    <!-- File type colors — new -->
+    <color name="type_apk">#3FB950</color>
+    <color name="type_video">#58A6FF</color>
+    <color name="type_audio">#BC8CFF</color>
+    <color name="type_image">#D29922</color>
+    <color name="type_other">#3B82F6</color>
+
+    <!-- DM card surface — new -->
+    <color name="surface_2">#21262D</color>
+</resources>
